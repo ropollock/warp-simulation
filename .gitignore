@@ -1,0 +1,83 @@
+# Ignore Visual Studio temporary files, build results, and
+# Rider's IDE settings and configurations.
+
+###############################
+# Rider IDE
+###############################
+.idea/
+*.sln.iml
+.idea_modules/
+
+# File-based project format
+*.iws
+*.ipr
+
+# IntelliJ
+out/
+
+###############################
+# ASP.NET Core
+###############################
+wwwroot/
+
+###############################
+# .NET Core
+###############################
+bin/
+obj/
+project.lock.json
+project.fragment.lock.json
+
+###############################
+# Visual Studio
+###############################
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.sln.ide
+*.csproj.user
+
+# Logs
+*.log
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac
+.DS_Store
+
+# IDE Files
+*.log
+*.ncrunch*
+*.localhistory
+_ReSharper.Caches/
+
+###############################
+# Miscellaneous
+###############################
+*.DS_Store
+*.pyc
+*.swp
+*.lock
+*.bak
+*.cache
+*.tmp
+*.tmp.*
+
+# Rider-specific files
+.idea/
+.idea_modules/
+
+# Rider logs and data
+.idea/
+*.iml
+logs/
